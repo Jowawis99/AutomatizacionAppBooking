@@ -13,4 +13,14 @@ public class MainPageAreaView {
             .the("Busqueda activada")
             .located(By.className("android.widget.TextView"));
 
+    public static Target backHomeRoom= Target
+            .the("Regreso a la pantalla de selección de habitación")
+            .located(By.xpath("//android.widget.TextView[contains(@text,'children')]"));
+
+    public static Target selectRoom= Target
+            .the("Panel de selección de habitaciones y pasajeros")
+            .located(By.xpath("//android.widget.TextView[contains(@text,'guests')]"));
+
+
+
 }
